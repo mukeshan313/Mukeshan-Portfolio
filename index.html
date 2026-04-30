@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Mukeshan K, a Computer Science Engineering student and Aspiring Full Stack Developer.">
+    <title>Mukeshan K | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="dark-theme">
+    <header id="header">
+        <nav class="container">
+            <div class="logo">Mukeshan<span>.K</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="actions">
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <i data-lucide="sun" id="sun-icon"></i>
+                    <i data-lucide="moon" id="moon-icon"></i>
+                </button>
+                <a href="assets/resume.pdf" class="btn btn-outline resume-btn" download>Resume</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 class="fade-in">Hi, I'm <span class="highlight">Mukeshan K</span></h1>
+                    <h2 class="slide-up">Aspiring Full Stack Developer & Data Analytics Enthusiast</h2>
+                    <p class="fade-in">A dedicated and hardworking 3rd-year Computer Science student with a passion for building scalable web applications and uncovering insights through data. Focused on creating impactful solutions with modern technologies.</p>
+                    <div class="hero-btns slide-up">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in">
+                    <div class="image-wrapper">
+                        <img src="assets/profile.png" alt="Mukeshan K">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-card reveal">
+                        <div class="card-icon"><i data-lucide="user"></i></div>
+                        <h3>Who I Am</h3>
+                        <p>I am currently pursuing my Bachelor of Engineering in Computer Science at Rathinam Technical Campus (Anna University) with a CGPA of 8.0. I thrive in collaborative environments and enjoy solving complex problems.</p>
+                    </div>
+                    <div class="about-card reveal">
+                        <div class="card-icon"><i data-lucide="graduation-cap"></i></div>
+                        <h3>Education</h3>
+                        <p><strong>B.E. Computer Science & Engineering</strong><br>Rathinam Technical Campus<br>Current CGPA: 8.0</p>
+                    </div>
+                    <div class="about-card reveal">
+                        <div class="card-icon"><i data-lucide="rocket"></i></div>
+                        <h3>Goals</h3>
+                        <p>Seeking an entry-level opportunity to apply my technical skills in Java, Python, and Full-stack development to build real-world applications and grow professionally.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-container reveal">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skill-tags">
+                            <span>Java</span>
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web & Frameworks</h3>
+                        <div class="skill-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>React</span>
+                            <span>Django</span>
+                            <span>REST Framework</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Analytics</h3>
+                        <div class="skill-tags">
+                            <span>Excel</span>
+                            <span>Power BI</span>
+                            <span>Git</span>
+                            <span>JWT Auth</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card reveal">
+                        <div class="project-img placeholder-green">
+                            <div class="overlay">
+                                <a href="#"><i data-lucide="github"></i></a>
+                                <a href="#"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>GreenCart</h3>
+                            <p class="tag">Full Stack Web App</p>
+                            <p>A comprehensive grocery delivery platform built with React and Django. Features include JWT authentication, product filtering, cart management, and responsive design.</p>
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>Django</span>
+                                <span>REST API</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card reveal">
+                        <div class="project-img placeholder-blue">
+                            <div class="overlay">
+                                <a href="#"><i data-lucide="layout"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Supermarket Sales Dashboard</h3>
+                            <p class="tag">Data Analytics</p>
+                            <p>An interactive Excel dashboard analyzing sales trends and customer behavior. Utilized pivot tables and advanced visualization to provide actionable business insights.</p>
+                            <div class="tech-stack">
+                                <span>Excel</span>
+                                <span>Pivot Tables</span>
+                                <span>Data Viz</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Strengths -->
+        <section class="extra">
+            <div class="container extra-grid">
+                <div class="certifications reveal">
+                    <h2 class="section-title left">Certifications</h2>
+                    <ul class="cert-list">
+                        <li>
+                            <i data-lucide="award"></i>
+                            <div>
+                                <h4>Power BI Workshop</h4>
+                                <p>Hands-on training in AI-powered dashboards and reporting.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i data-lucide="award"></i>
+                            <div>
+                                <h4>DataCamp: SQL Associate Data Analyst</h4>
+                                <p>Specialized in querying and analytical problem-solving.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="strengths reveal">
+                    <h2 class="section-title left">Strengths</h2>
+                    <div class="strengths-grid">
+                        <div class="strength-item"><i data-lucide="users"></i><span>Teamwork</span></div>
+                        <div class="strength-item"><i data-lucide="zap"></i><span>Leadership</span></div>
+                        <div class="strength-item"><i data-lucide="brain"></i><span>Critical Thinking</span></div>
+                        <div class="strength-item"><i data-lucide="clock"></i><span>Time Management</span></div>
+                        <div class="strength-item"><i data-lucide="message-square"></i><span>Communication</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leadership Section -->
+        <section class="leadership">
+            <div class="container reveal">
+                <h2 class="section-title">Leadership & Experience</h2>
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <h3>Class Representative</h3>
+                        <span>Leadership</span>
+                    </div>
+                    <p>Organized multiple college-level events and successfully led a team of 12 members for a major technical event, ensuring seamless coordination and execution.</p>
+                    <ul class="exp-highlights">
+                        <li>Organized College-level Events</li>
+                        <li>Led 12-member Technical Team</li>
+                        <li>Zonal Level Sports (Volleyball & Kabaddi)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper reveal">
+                    <div class="contact-info">
+                        <h3>Let's talk about your next project</h3>
+                        <p>I'm always open to discussing new opportunities or collaborations.</p>
+                        <div class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <a href="mailto:mukeshan.k19@gmail.com">mukeshan.k19@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <a href="tel:8778039919">8778039919</a>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                            <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+                            <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mukeshan K. Built with passion and precision.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
