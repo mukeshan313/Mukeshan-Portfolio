@@ -125,6 +125,18 @@ ul {
   color: white;
 }
 
+.btn-outline {
+  background-color: transparent;
+  color: var(--text-secondary);
+  border: 2px solid var(--border-color);
+  margin-left: 1rem;
+}
+
+.btn-outline:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
 /* Navbar */
 .navbar {
   position: fixed;
