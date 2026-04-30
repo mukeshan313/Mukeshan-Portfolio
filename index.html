@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mukeshan K | Aspiring Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Mukeshan K, a Computer Science Engineering student specializing in Full Stack Development and Data Analytics.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@0.473.0/dist/umd/lucide.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          <a href="#" class="logo">MK<span>.</span></a>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="nav-actions">
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+              <i data-lucide="sun" class="sun-icon"></i>
+              <i data-lucide="moon" class="moon-icon"></i>
+            </button>
+            <button class="menu-toggle" aria-label="Open Menu">
+              <i data-lucide="menu"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="fade-in">Hi, I'm <span class="highlight">Mukeshan K</span></h1>
+            <h2 class="slide-up">Aspiring Full Stack Developer & Data Analytics Enthusiast</h2>
+            <p class="fade-in">I am a hardworking fresher with strong problem-solving skills and a passion for learning. Dedicated to building impactful digital solutions.</p>
+            <div class="hero-btns slide-up">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-visual fade-in">
+            <!-- Visual element / Abstract shape -->
+            <div class="blob"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about section reveal">
+        <div class="container">
+          <div class="section-header">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+          </div>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>I am a 3rd-year Computer Science Engineering student at <strong>Rathinam Technical Campus (Anna University)</strong> with a CGPA of <strong>8.0</strong>. I completed my higher secondary education in Computer Science at Vidhyaa Vikas Matric Higher Secondary School, securing 84.5%.</p>
+              <p>I have strong communication skills, a positive attitude, and a keen interest in full-stack development and data analytics. I am seeking an entry-level opportunity to gain practical experience and further develop my skills.</p>
+            </div>
+            <div class="about-stats">
+              <div class="stat-card">
+                <i data-lucide="graduation-cap"></i>
+                <h3>Education</h3>
+                <p>B.E. Computer Science</p>
+              </div>
+              <div class="stat-card">
+                <i data-lucide="award"></i>
+                <h3>CGPA</h3>
+                <p>8.0 / 10.0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills section reveal">
+        <div class="container">
+          <div class="section-header">
+            <h2>Technical Skills</h2>
+            <div class="underline"></div>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i data-lucide="code-2"></i>
+              <span>Java</span>
+            </div>
+            <div class="skill-card">
+              <i data-lucide="terminal"></i>
+              <span>Python</span>
+            </div>
+            <div class="skill-card">
+              <i data-lucide="database"></i>
+              <span>SQL</span>
+            </div>
+            <div class="skill-card">
+              <i data-lucide="file-json"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-card">
+              <i data-lucide="layout"></i>
+              <span>HTML</span>
+            </div>
+            <div class="skill-card">
+              <i data-lucide="palette"></i>
+              <span>CSS</span>
+            </div>
+            <div class="skill-card">
+              <i data-lucide="table"></i>
+              <span>Excel</span>
+            </div>
+            <div class="skill-card">
+              <i data-lucide="server"></i>
+              <span>Django</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects section reveal">
+        <div class="container">
+          <div class="section-header">
+            <h2>Featured Projects</h2>
+            <div class="underline"></div>
+          </div>
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1470&auto=format&fit=crop" alt="GreenCart App">
+              </div>
+              <div class="project-info">
+                <h3>GreenCart</h3>
+                <p>Full Stack Grocery Delivery App built using React and Django REST Framework. Features user authentication, product filtering, cart, wishlist, and order management.</p>
+                <div class="project-tags">
+                  <span>React</span>
+                  <span>Django</span>
+                  <span>REST API</span>
+                  <span>JWT</span>
+                </div>
+              </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1470&auto=format&fit=crop" alt="Supermarket Dashboard">
+              </div>
+              <div class="project-info">
+                <h3>Supermarket Sales Dashboard</h3>
+                <p>Excel-based dashboard using pivot tables and charts to analyze sales, revenue, and customer trends, improving data clarity and insights.</p>
+                <div class="project-tags">
+                  <span>Excel</span>
+                  <span>Data Visualization</span>
+                  <span>Pivot Tables</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications & Strengths -->
+      <section id="extras" class="section reveal">
+        <div class="container grid-2">
+          <div class="certifications">
+            <div class="section-header">
+              <h2>Certifications</h2>
+              <div class="underline"></div>
+            </div>
+            <ul class="cert-list">
+              <li>
+                <i data-lucide="check-circle"></i>
+                <div>
+                  <strong>Power BI Workshop</strong>
+                  <p>Hands-on experience in building dashboards and data visualization.</p>
+                </div>
+              </li>
+              <li>
+                <i data-lucide="check-circle"></i>
+                <div>
+                  <strong>DataCamp Associate Data Analyst in SQL</strong>
+                  <p>Training in querying, data manipulation, and analytics.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="strengths">
+            <div class="section-header">
+              <h2>My Strengths</h2>
+              <div class="underline"></div>
+            </div>
+            <div class="strengths-grid">
+              <div class="strength-item">
+                <i data-lucide="users"></i>
+                <span>Teamwork</span>
+              </div>
+              <div class="strength-item">
+                <i data-lucide="trending-up"></i>
+                <span>Leadership</span>
+              </div>
+              <div class="strength-item">
+                <i data-lucide="brain-circuit"></i>
+                <span>Critical Thinking</span>
+              </div>
+              <div class="strength-item">
+                <i data-lucide="clock"></i>
+                <span>Time Management</span>
+              </div>
+              <div class="strength-item">
+                <i data-lucide="message-square-more"></i>
+                <span>Effective Communication</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section reveal">
+        <div class="container">
+          <div class="section-header">
+            <h2>Get In Touch</h2>
+            <div class="underline"></div>
+          </div>
+          <div class="contact-content">
+            <div class="contact-info">
+              <div class="info-item">
+                <i data-lucide="mail"></i>
+                <div>
+                  <h4>Email</h4>
+                  <a href="mailto:mukeshan.k19@gmail.com">mukeshan.k19@gmail.com</a>
+                </div>
+              </div>
+              <div class="info-item">
+                <i data-lucide="phone"></i>
+                <div>
+                  <h4>Phone</h4>
+                  <a href="tel:8778039919">8778039919</a>
+                </div>
+              </div>
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/mukeshan-k-238759296/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                <a href="https://github.com/mukeshan313" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+                <a href="https://leetcode.com/u/Mukeshan32/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode"><i data-lucide="code-2"></i></a>
+              </div>
+            </div>
+            <!-- Simple contact form placeholder -->
+            <form class="contact-form">
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Email" required>
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <p>&copy; 2026 Mukeshan K. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
